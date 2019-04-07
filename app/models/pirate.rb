@@ -1,5 +1,7 @@
 class Pirate
-    @@all = []
+   attr_reader :name, :weight, :height
+
+   @@all = []
 
    def initialize(args)
     @name = args[:name]
