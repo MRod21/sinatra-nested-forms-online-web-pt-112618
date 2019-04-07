@@ -1,5 +1,7 @@
 class Ship
-  @@ships = []
+  attr_accessor :name, :type, :booty
+
+   @@ships = []
 
    def initialize(args)
     @name = args[:name]
